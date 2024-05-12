@@ -5,6 +5,7 @@
       <directory url="file://$PROJECT_DIR$/chat/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -23,10 +24,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="chat" options="-parameters" />
-      <module name="chatroom-app" options="-parameters" />
+      <module name="chatroom" options="-parameters" />
+      <module name="chatroom-app" options="" />
       <module name="chatroom-common" options="-parameters" />
-      <module name="chatroom-framework" options="-parameters" />
-      <module name="chatroom-system" options="-parameters" />
+      <module name="chatroom-framework" options="" />
+      <module name="chatroom-system" options="" />
     </option>
   </component>
 </project>

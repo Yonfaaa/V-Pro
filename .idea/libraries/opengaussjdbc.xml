@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="opengaussjdbc">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/GaussDB_opengauss_client_tools/GaussDB_opengauss_client_tools/Centralized/Euler2.5_X86_64/GaussDB-Kernel-V500R002C10-EULER-64bit-Jdbc/opengaussjdbc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

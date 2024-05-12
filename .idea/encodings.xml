@@ -4,9 +4,13 @@
     <file url="file://$PROJECT_DIR$/admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/chatroom-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/chatroom-app/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/chatroom-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/chatroom-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/chatroom-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/chatroom-framework/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/chatroom-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat/chatroom-system/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chat/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
