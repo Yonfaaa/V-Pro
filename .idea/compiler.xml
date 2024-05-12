@@ -12,6 +12,8 @@
         <module name="chatroom-system" />
         <module name="system" />
         <module name="framework" />
+        <module name="common" />
+        <module name="admin" />
         <module name="chatroom-framework" />
         <module name="chatroom-app" />
         <module name="chatroom-common" />
