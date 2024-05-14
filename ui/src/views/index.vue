@@ -1,10 +1,16 @@
 <template>
-  <div>这里是首页</div>
+  <div>
+    这里是首页
+<!--    <test-component/>-->
+  </div>
 </template>
 
 <script>
+import TestComponent from "@/components/test.vue";
+
 export default {
   name: "Index",
+  components: {TestComponent},
   data() {
     return {
       // 版本号
