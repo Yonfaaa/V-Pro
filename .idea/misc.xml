@@ -10,7 +10,15 @@
         <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desktop/tools/chatroom-backend-main/chatroom-app/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desktop/tools/chatroom-backend-main/chatroom-common/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../Desktop/tools/chatroom-backend-main/chatroom-app/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Desktop/tools/chatroom-backend-main/chatroom-common/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
