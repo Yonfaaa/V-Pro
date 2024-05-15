@@ -1,7 +1,7 @@
 <template>
   <div>
     这里是首页
-<!--    <test-component/>-->
+    <test-component/>
   </div>
 </template>
 
