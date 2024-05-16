@@ -166,6 +166,7 @@
         <module>framework</module>
         <module>system</module>
         <module>common</module>
+        <module>flowable</module>
     </modules>
     <packaging>pom</packaging>
 

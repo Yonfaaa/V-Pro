@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chatroom-system" />
+        <module name="ruoyi-flowable" />
         <module name="system" />
         <module name="framework" />
         <module name="common" />

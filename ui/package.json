@@ -10,7 +10,8 @@
     "preview": "node build/index.js --preview",
     "lint": "eslint --ext .js,.vue src",
     "start-server": "node ./src/server/index.js",
-    "dev": "vue-cli-service serve"
+    "dev": "concurrently \"npm run serve\" \"npm run start-server\""
+
   },
   "husky": {
     "hooks": {
