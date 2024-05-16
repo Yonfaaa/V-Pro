@@ -22,7 +22,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chatroom-app" target="17" />
       <module name="chatroom-app (1)" target="17" />
       <module name="chatroom-common (1)" target="17" />
     </bytecodeTargetLevel>
