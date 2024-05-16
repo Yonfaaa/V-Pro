@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ruoyi-flowable</artifactId>
+    <artifactId>flowable</artifactId>
 
     <description>
         flowable工作流
