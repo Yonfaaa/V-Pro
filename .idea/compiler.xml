@@ -10,27 +10,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chatroom-system" />
+        <module name="admin" />
         <module name="ruoyi-flowable" />
         <module name="system" />
         <module name="framework" />
         <module name="common" />
-        <module name="chatroom-app (2)" />
-        <module name="admin" />
-        <module name="chatroom-framework" />
         <module name="chatroom-app" />
-        <module name="chatroom-common" />
+        <module name="chat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chatroom-app (1)" target="17" />
+      <module name="chatroom-app (2)" target="17" />
+      <module name="chatroom-common" target="17" />
       <module name="chatroom-common (1)" target="17" />
+      <module name="chatroom-framework" target="17" />
+      <module name="chatroom-system" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="chat" options="-parameters" />
-      <module name="chatroom" options="-parameters" />
       <module name="chatroom-app" options="-parameters" />
       <module name="chatroom-app (1)" options="-parameters" />
       <module name="chatroom-app (2)" options="-parameters" />

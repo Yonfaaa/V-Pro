@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chat/chatroom.iml" filepath="$PROJECT_DIR$/chat/chatroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chatroom-app/chatroom-app (2).iml" filepath="$PROJECT_DIR$/chat/chatroom-app/chatroom-app (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chatroom-common/chatroom-common.iml" filepath="$PROJECT_DIR$/chat/chatroom-common/chatroom-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chatroom-framework/chatroom-framework.iml" filepath="$PROJECT_DIR$/chat/chatroom-framework/chatroom-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chatroom-system/chatroom-system.iml" filepath="$PROJECT_DIR$/chat/chatroom-system/chatroom-system.iml" />
     </modules>
   </component>
 </project>
