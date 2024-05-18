@@ -9,38 +9,39 @@
 </head>
 
 <body>
-    <div class="container" id="username-container">
-        <form class="username-form" id="username-form">
+<div class="login-container" id="username-container">
+    <div class="title">微人事聊天室</div>
+    <form class="username-form" id="username-form">
+        <div class="input-box">
+            <input type="text" placeholder="输入用户名" id="username" autocomplete="off" maxlength="100">
+            <button type="submit">登录</button>
+        </div>
+    </form>
+</div>
+<div class="container hidden" id="chat-container">
+    <div class="chat-list">
+        <h1>聊天列表</h1>
+        <ul id="chat-list-ul" style="overflow-y: scroll; height: 440px;">
+            <li>
+                <div class="chat-item active" data-chat="public">
+                    <span>公共聊天室</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="chat-room" id="public-chat">
+        <h1>公共聊天室</h1>
+        <div class="chat-content" id="public-content">
+        </div>
+        <form id="public-chat-send">
             <div class="input-box">
-                <input type="text" placeholder="输入用户名" id="username" autocomplete="off" maxlength="100">
-                <button type="submit">登录</button>
+                <input type="hidden" value="public" id="public-receiver">
+                <input type="text" placeholder="输入消息" id="public-chat-message" autocomplete="off" maxlength="100">
+                <button type="submit">发送</button>
             </div>
         </form>
     </div>
-    <div class="container hidden" id="chat-container">
-        <div class="chat-list">
-            <h1>聊天列表</h1>
-            <ul id="chat-list-ul" style="overflow-y: scroll; height: 390px;">
-                <li>
-                    <div class="chat-item active" data-chat="public">
-                        <span>公共聊天室</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="chat-room" id="public-chat">
-            <h1>公共聊天室</h1>
-            <div class="chat-content" id="public-content">
-            </div>
-            <form id="public-chat-send">
-                <div class="input-box">
-                    <input type="hidden" value="public" id="public-receiver">
-                    <input type="text" placeholder="输入消息" id="public-chat-message" autocomplete="off" maxlength="100">
-                    <button type="submit">发送</button>
-                </div>
-            </form>
-        </div>
-    </div>
+</div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
